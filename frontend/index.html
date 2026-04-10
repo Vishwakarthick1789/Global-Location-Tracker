@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Location Tracker</title>
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <h1>📍 Global Tracker</h1>
+            <p>Monitor your footprint across the globe</p>
+        </header>
+
+        <main class="main-content">
+            <div class="controls-panel">
+                <div class="card current-status">
+                    <h2>Track New Location</h2>
+                    <p class="status-msg" id="statusMsg">Ready to log your current coordinates.</p>
+                    <button id="trackBtn" class="btn-primary">Track My Location</button>
+                </div>
+                
+                <div class="card history-panel">
+                    <h2>Recent Locations</h2>
+                    <ul id="locationList" class="location-list">
+                        <!-- Locations dynamically populated here -->
+                    </ul>
+                </div>
+            </div>
+
+            <div class="map-panel">
+                <div id="map"></div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
