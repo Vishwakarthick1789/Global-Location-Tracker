@@ -1,4 +1,4 @@
-# 📍 Global Location Tracker
+# 📍 Global Location Tracker 
 
 A full-stack, premium web application designed to track and log your global footprint. Built with a modern tech stack to provide an intuitive map interface and secure data logging.
 
@@ -35,4 +35,4 @@ The backend is neatly packaged into a Jupyter Notebook that runs locally, making
 ### 3. Frontend Setup
 1. Open the `frontend` folder.
 2. Double-click `index.html` to open it in your browser.
-3. Allow location access when prompted and start tracking!
+3. Allow location access when prompted and start tracking.
