@@ -19,7 +19,7 @@ A full-stack, Premium web designed to track and log your global footprint. Built
 ## ⚙️ Setup & Installation
 
 ### 1. Database Setup
-1. Launch **MySQL Workbench**.
+1. Launch **MySQL Workbench**
 2. Execute the `schema.sql` script located in the `database` folder to create the `location_db` database and `locations` table.
 
 ### 2. Backend Setup
