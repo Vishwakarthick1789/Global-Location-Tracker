@@ -1,6 +1,6 @@
 # 📍 Global Location Tracker 
 
-A full-stack, premium web application designed to track and log your global footprint. Built with a modern tech stack to provide an intuitive map interface and secure data logging.
+A full-stack,web designed to track and log your global footprint. Built with a modern tech stack to provide an intuitive map interface and secure data logging.
 
 ## 🚀 Features
 
